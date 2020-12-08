@@ -1,0 +1,66 @@
+body {
+  background: url(./images/backgroundImage.png) no-repeat center fixed;     
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  color: #ffffff;
+  padding: 8rem 4rem 6rem 4rem;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: -moz-flex-end;
+  -webkit-justify-content: -webkit-flex-end;
+  -ms-justify-content: -ms-flex-end;
+  justify-content: flex-end;
+  -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  position: relative;
+  cursor: default;
+  text-align: center;
+  z-index: 1;
+  min-height: 50vh;
+}
+
+.intro {
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, .10);
+  padding: 5% 8%;
+}
+
+.links {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  list-style: none;
+  list-style-image: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  text-transform: uppercase;
+}
